@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
 
 export interface FavoriteChangedEventArgs {
   newValue: boolean;
@@ -7,7 +7,8 @@ export interface FavoriteChangedEventArgs {
 @Component({
   selector: 'app-favorite',
   templateUrl: './favorite.component.html',
-  styleUrls: ['./favorite.component.css']
+  styleUrls: ['./favorite.component.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class FavoriteComponent implements OnInit {
   @Input('isFavorite') isFavorite: boolean;

@@ -28,6 +28,14 @@ combination of both are called public API of that component: or COMPONENT API,
 
 #### Aliasing I/P OR O/P : keep the contracts of that api stable.
 
+## passing event data when raising custom event..
+
+## View Encapsulation (concept of SHADOW DOM)
+
+#### Emulated, Native, None: it should be emulated so that css will not overwrite by some other css class
+#### shadow dom is supported by chrome(^63 version) & safari(^10 version)
+#### encapsulation: ViewEncapsulation.Emulated
+
 
 
 
