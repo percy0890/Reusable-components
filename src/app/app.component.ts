@@ -11,5 +11,9 @@ export class AppComponent {
   post = {
     isFavorite: false
   };
+
+  onFavoriteChanged() {
+    console.log('favorite changed');
+  }
 }
 
