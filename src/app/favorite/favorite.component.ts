@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-favorite',
@@ -6,14 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./favorite.component.css']
 })
 export class FavoriteComponent implements OnInit {
-  isEmpty: boolean;
+  @Input('isFavorite') isFavorite: boolean;
   constructor() { }
 
   ngOnInit() {
   }
 
-  onChange(){
-    this.isEmpty = !this.isEmpty;
+  onChange() {
+    this.isFavorite = !this.isFavorite;
   }
 
 }
