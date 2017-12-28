@@ -14,8 +14,14 @@ export class AppComponent {
     isFavorite: false
   };
 
+  likesData = {
+    likesCount: 0,
+    isSelected: false
+  };
+
   onFavoriteChanged(eventArgs: FavoriteChangedEventArgs ) {
     console.log('favorite changed', eventArgs);
   }
+
 }
 
