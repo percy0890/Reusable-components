@@ -44,6 +44,8 @@ it should be emulated so that css will not overwrite by some other css class...
 It can be the other option to add input property to your component at somr place. 
 You dont need a selector if you have only one ng-content
 
+###### at run time ng-content will replace entirely by the element having selector class
+
 
 
 
