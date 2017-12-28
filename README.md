@@ -46,6 +46,9 @@ You dont need a selector if you have only one ng-content
 
 ###### at run time ng-content will replace entirely by the element having selector class
 
+## ng-container
+if you use ng-container then ng-content will replace by the ng-container content
+
 
 
 
