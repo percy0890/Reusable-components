@@ -1,6 +1,13 @@
-<span class="glyphicon glyphicon-asterisk"></span>
 <app-favorite 
   [isFavorite]="post.isFavorite"
   (change)="onFavoriteChanged($event)">
 </app-favorite>
 <app-tile-casing></app-tile-casing>
+
+<app-panel>
+  <div class="heading">Heading</div>
+  <div class="body">
+    <h1>Body</h1>
+    <span>Content</span>
+  </div>
+</app-panel>

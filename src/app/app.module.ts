@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TileCasingComponent } from './tile-casing/tile-casing.component';
 import { TitleCasePipe } from './title-case.pipe';
+import { PanelComponent } from './panel/panel.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { TitleCasePipe } from './title-case.pipe';
     AppComponent,
     FavoriteComponent,
     TileCasingComponent,
-    TitleCasePipe
+    TitleCasePipe,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
