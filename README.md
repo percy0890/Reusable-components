@@ -11,3 +11,7 @@
 
 it will leave preposition 'of' and 'the' in lowerCase if it is in the middle of the string...
 
+## *Pipe for tile-casing
+
+using this pipe(filter), you can convert your string in tile-casing...
+
