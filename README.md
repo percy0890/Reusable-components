@@ -30,9 +30,13 @@ combination of both are called public API of that component: or COMPONENT API,
 
 ## passing event data when raising custom event..
 
+creating an instance of EventEmitter & emit the value using emit() method.
+
 ## View Encapsulation (concept of SHADOW DOM)
 
-#### Emulated, Native, None: it should be emulated so that css will not overwrite by some other css class
+#### Emulated, Native, None: 
+it should be emulated so that css will not overwrite by some other css class... 
+
 #### shadow dom is supported by chrome(^63 version) & safari(^10 version)
 #### encapsulation: ViewEncapsulation.Emulated
 
