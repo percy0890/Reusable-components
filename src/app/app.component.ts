@@ -19,6 +19,8 @@ export class AppComponent {
     isSelected: false
   };
 
+  viewMode = 'map';
+
   onFavoriteChanged(eventArgs: FavoriteChangedEventArgs ) {
     console.log('favorite changed', eventArgs);
   }
