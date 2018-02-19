@@ -6,7 +6,7 @@
   </span>
   <span>{{likesCount}}</span>
   <div>
-    <span *ngIf="isSelected; then like else unlike">Liked</span>
+    <span *ngIf="isSelected; then like else unlike"></span>
     <ng-template #like>Liked</ng-template>
     <ng-template #unlike>Unliked</ng-template>
   </div>

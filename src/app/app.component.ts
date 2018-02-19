@@ -1,3 +1,5 @@
+import { PostService } from './services/post.service';
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FavoriteChangedEventArgs } from './favorite/favorite.component';
 
@@ -19,11 +21,12 @@ export class AppComponent {
     isSelected: false
   };
 
-  viewMode = 'map';
+  viewMode = '';
+
+  constructor() {}
 
   onFavoriteChanged(eventArgs: FavoriteChangedEventArgs ) {
     console.log('favorite changed', eventArgs);
   }
-
 }
 

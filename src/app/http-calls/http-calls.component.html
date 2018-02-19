@@ -1,0 +1,22 @@
+<div class="container">
+  <input 
+    (keyup.enter)="createPost(title)" #title
+    type="text" class="form-control">
+  <ul class="list-group">
+    <li
+      *ngFor="let data of getData" 
+      class="list-group-item">
+      <button
+        (click)="updatePost(data)"
+        class="btn btn-default btn-sm">
+        Update
+      </button>
+      <button
+        (click)="deletePost(data)"
+        class="btn btn-default btn-sm">
+        Delete
+      </button>
+      {{data.title}}
+    </li>
+  </ul>
+</div>
