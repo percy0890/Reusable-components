@@ -1,7 +1,7 @@
-import { PostService } from './services/post.service';
-import { HttpClient } from '@angular/common/http';
+// import { PostService } from './services/post.service';
+// import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { FavoriteChangedEventArgs } from './favorite/favorite.component';
+// import { FavoriteChangedEventArgs } from './favorite/favorite.component';
 
 
 @Component({
@@ -10,23 +10,23 @@ import { FavoriteChangedEventArgs } from './favorite/favorite.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular app';
+  // title = 'Angular app';
 
-  post = {
-    isFavorite: false
-  };
+  // post = {
+  //   isFavorite: false
+  // };
 
-  likesData = {
-    likesCount: 0,
-    isSelected: false
-  };
+  // likesData = {
+  //   likesCount: 0,
+  //   isSelected: false
+  // };
 
-  viewMode = '';
+  // viewMode = '';
 
-  constructor() {}
+  // constructor() {}
 
-  onFavoriteChanged(eventArgs: FavoriteChangedEventArgs ) {
-    console.log('favorite changed', eventArgs);
-  }
+  // onFavoriteChanged(eventArgs: FavoriteChangedEventArgs ) {
+  //   console.log('favorite changed', eventArgs);
+  // }
 }
 
