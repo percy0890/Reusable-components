@@ -13,6 +13,7 @@ export interface FavoriteChangedEventArgs {
 export class FavoriteComponent implements OnInit {
   @Input('isFavorite') isFavorite: boolean;
   @Output('change') change = new EventEmitter();
+  title: string;
 
   constructor() { }
 
